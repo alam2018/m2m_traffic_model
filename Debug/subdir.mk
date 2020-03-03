@@ -5,18 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../distribs.c \
-../report.c \
-../traffic_agg_main.c 
+../m2mTraffic_main.c \
+../report.c 
 
 OBJS += \
 ./distribs.o \
-./report.o \
-./traffic_agg_main.o 
+./m2mTraffic_main.o \
+./report.o 
 
 C_DEPS += \
 ./distribs.d \
-./report.d \
-./traffic_agg_main.d 
+./m2mTraffic_main.d \
+./report.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

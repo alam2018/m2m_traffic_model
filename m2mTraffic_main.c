@@ -65,7 +65,7 @@ POneSourceOnOff initializeOneSourceOnOff(POneSourceOnOff nextOne)
 	newsource.Doff.max				= TOTAL_USER;
 //	newsource.Doff.max 				= (myInteger) (0.1 * MS_IN_NS); /* in ns */
 //	newsource.Doff.min 				= (myInteger) (0.001*MS_IN_NS); /* in ns */
-	newsource.Doff.min				= 10;
+	newsource.Doff.min				= TOTAL_USER * 0.2;
 	newsource.Doff.lambda 			= 0.28;
 	newsource.Doff.k 				= 0.74;
 	newsource.Doff.avg 				= (double) newsource.Doff.max * 0.5;
